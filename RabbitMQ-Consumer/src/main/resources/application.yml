@@ -1,0 +1,11 @@
+#端口,注意端口不要冲突
+server:
+  port: 9999
+#Rabbitmq的配置
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    virtual-host: /
+    username: admin
+    password: admin
